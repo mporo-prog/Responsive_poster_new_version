@@ -4,7 +4,7 @@
 body{
     width: 100vw;
     div{
-        border: 1.5vw dotted;
+        border: 5vw dotted;
         border-radius: 6%;
     }
 }
