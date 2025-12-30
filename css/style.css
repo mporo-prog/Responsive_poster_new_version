@@ -1,0 +1,83 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+body{
+    width: 100vw;
+    div{
+        border: 1.5vw dotted;
+        border-radius: 6%;
+    }
+}
+.section-first-masks-and-theater{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25vw;
+    height: 35vw;
+    background-color: #E5C441;
+    border-color: #761614;
+    div{
+        border: 0;
+    }
+}
+.column-masks{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+    img{
+        width: auto;
+        height: 7vw;
+    }
+}
+.section-first-circle{
+    width: 20vw;
+    height: 20vw;
+    background-color: black;
+    border-radius: 100%;
+}
+.text-theater{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:0;
+    p{
+        font-family: "geometria_bold";
+        font-size: 5.7vw;
+        line-height: 100%;
+        color: #761614;
+        animation: change-opacity 1s linear infinite;
+    }
+}
+.red-mask-rotate-minus-24{
+    rotate: -24deg;
+    animation: rotate-minus-24-to-24 2s linear infinite;
+}
+.red-mask-rotate-24{
+    rotate: 24deg;
+    animation: rotate-24-to-minus-24 2s linear infinite;
+}
+
+@keyframes rotate-minus-24-to-24 {
+    0%, 100%{
+        rotate: -24deg;
+    }
+    50%{
+        rotate: 24deg;
+    }
+}
+@keyframes rotate-24-to-minus-24 {
+    0%, 100%{
+        rotate: 24deg;
+    }
+    50%{
+        rotate: -24deg;
+    }
+}
+@keyframes change-opacity {
+    0%, 100%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+}

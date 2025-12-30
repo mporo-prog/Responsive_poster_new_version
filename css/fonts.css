@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "BebasNeueCyrillic";
+    src: url('../fonts/BebasNeueCyrillic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "geometria_bold";
+    src: url('../fonts/geometria_bold.otf') format('opentype');
+    font-weight: 1000;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Kucheryavy";
+    src: url('../fonts/Kucheryavy.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
