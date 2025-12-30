@@ -4,10 +4,12 @@
 body{
     width: 100vw;
     div{
-        border: 5vw dotted;
+        border: 1.5vw solid;
         border-radius: 6%;
     }
 }
+
+
 .section-first-masks-and-theater{
     display: flex;
     align-items: center;
@@ -16,9 +18,16 @@ body{
     height: 35vw;
     background-color: #E5C441;
     border-color: #761614;
+    outline: #E5C441 dotted 1.5vw;
+    outline-offset: -1.5vw;
     div{
         border: 0;
     }
+}
+.border-dotted{
+    position: absolute;
+    z-index: 100;
+    border-style: dotted;
 }
 .column-masks{
     display: flex;
@@ -28,12 +37,6 @@ body{
         width: auto;
         height: 7vw;
     }
-}
-.section-first-circle{
-    width: 20vw;
-    height: 20vw;
-    background-color: black;
-    border-radius: 100%;
 }
 .text-theater{
     display: flex;
@@ -55,6 +58,19 @@ body{
 .red-mask-rotate-24{
     rotate: 24deg;
     animation: rotate-24-to-minus-24 2s linear infinite;
+}
+
+.section-first-circle{
+    width: 20vw;
+    height: 20vw;
+    background-color: black;
+    border-radius: 100%;
+}
+
+#masks-and-theater{
+    width: 25vw;
+    height: 35vw;
+    border-color: #E5C441;
 }
 
 @keyframes rotate-minus-24-to-24 {
